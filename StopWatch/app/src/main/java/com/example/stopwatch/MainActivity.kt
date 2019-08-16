@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
     private fun recordLapTime() {
         val lapTime = this.time // 현재 시간을 지역변수에 저장
         val textView = TextView(this) // 동적으로 TextView를 생성
-        textView.test = "$lap LAB : ${lapTime / 100}.${lapTime % 100}" // 동적으로 생성한 TextView에 '1LAB : 5.35'와 같은 형태의 문자열 설정
+        textView.text = "$lap LAB : ${lapTime / 100}.${lapTime % 100}" // 동적으로 생성한 TextView에 '1LAB : 5.35'와 같은 형태의 문자열 설정
 
         // 맨 위부터 TextView 추가
         lapLayout.addView(textView, 0)
