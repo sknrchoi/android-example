@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         when (item?.itemId) {
             R.id.action_google, R.id.action_home -> {
-                webView.loadUrl("http://www.googole.com")
+                webView.loadUrl("http://www.google.com")
                 return true
             }
             R.id.action_naver -> {
